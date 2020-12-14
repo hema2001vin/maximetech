@@ -1,0 +1,213 @@
+.navbar-toggle{
+	background: #000;
+}
+.navbar-toggle .icon-bar{
+	background: #fff;
+}
+/*iPhone 5 in portrait & landscape*/
+@media only screen and ( min-device-width : 320px) and ( max-device-width : 568px) {
+	.navbar-toggle{
+	  margin-bottom: 0;
+	  margin-top: 14px;
+	}
+	.top_content{
+		background: #212121;
+	}
+	.navbar-collapse{
+		float: none;
+		border-top: none;
+		box-shadow: none;
+	}
+	.nav.navbar-nav{
+		margin: 0 auto;
+		display: table;
+		text-align: center;
+	}
+	.nav.navbar-nav > li{
+		display: table;
+		margin: 0 auto;
+	}
+	.nav.navbar-nav li:after{
+		content: "";
+	}
+	.nav.navbar-nav li a{
+		padding: 10px 0px;
+	}
+	.top_content h2{
+		padding-top: 0;
+	}
+	.about{
+		margin-top: -200px;
+		padding-bottom: 40px;
+	}
+	.about .questions{
+		padding-right: 15px;
+	}
+	.about .questions.top{
+		margin-top: 0;
+	}
+	.about .about_content{
+		text-align: center;
+		padding: 15px 0;
+	}
+	.portfolio{
+		background: #303030;
+		padding-top: 30px;
+	}
+	.portfolio .port{
+		text-align: center;
+	}
+	.portfolio .port .p_title{
+		padding-top: 15px;
+	}
+	.blog{
+		padding: 40px 0;
+	}
+	.blog .blogs, .blog .blogs .two{
+		text-align: center;
+		padding-top: 40px;
+	}
+	.blog .blogs .b_image{
+		margin: 0 auto;
+		float: none;
+	}
+	.blog .blogs .blog_text{
+		padding-left: 0;
+		padding-top: 20px;
+	}
+	.client{
+		padding: 30px 0;
+	}
+	.client .clients img{
+		padding-bottom: 20px;
+	}
+	.contact{
+		padding: 40px 0;
+	}
+	.footer{
+		background-repeat: repeat;
+	}
+	.footer .about, .footer .testimonial{
+		margin: 0 auto;
+		padding-left: 10px;
+		padding-top: 40px;
+		text-align: center;
+	}
+	.footer .testimonial .text span{
+		margin: 0 auto;
+	}
+	.f_menu .navbar > li{
+		display: table;
+		text-align: center;
+		margin: 0 auto;
+	}
+	.f_menu .navbar li:after{
+		content: "";
+	}
+	
+}
+/*iPhone 5 in portrait & landscape over*/
+/* iPhone 5 in portrait */
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait) {
+	.contact .get_in_touch a{
+		padding: 14px 38px;
+	}
+}
+/* iPhone 5 in landscape */
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape) {
+	.portfolio .port .img-responsive{
+		display: table;
+		margin: 0 auto;
+	}
+}
+
+/*iPad in portrait & landscape*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  }
+/*iPad in portrait*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+	.top_content{
+		background: #212121;
+	}
+	.nav.navbar-nav li:after{
+		content: "";
+	}
+	.top_content h2{
+		padding-top: 0;
+	}
+	.about{
+		margin-top: -200px;
+		padding-bottom: 40px;
+	}
+	.about .questions{
+		padding-right: 15px;
+	}
+	.about .questions.top{
+		margin-top: 0;
+	}
+	.about .about_content{
+		text-align: center;
+		padding: 30px 0;
+	}
+	.portfolio{
+		background: #303030;
+		padding-top: 30px;
+	}
+	.portfolio .port{
+		text-align: center;
+	}
+	.portfolio .port .p_title{
+		padding-top: 15px;
+	}
+	.portfolio .port .img-responsive{
+		display: table;
+		margin: 0 auto;
+	}
+	.blog{
+		padding: 40px 0;
+	}
+	.blog .blogs, .blog .blogs .two{
+		text-align: center;
+		padding-top: 40px;
+	}
+	.blog .blogs .b_image{
+		margin: 0 auto;
+		float: none;
+	}
+	.blog .blogs .blog_text{
+		padding-left: 0;
+		padding-top: 20px;
+	}
+	.client{
+		padding: 30px 0;
+	}
+	.client .clients img{
+		padding-bottom: 20px;
+	}
+	.contact{
+		padding: 40px 0;
+	}
+	.footer{
+		background-repeat: repeat;
+	}
+	.footer .about, .footer .testimonial{
+		margin: 0 auto;
+		padding-left: 10px;
+		padding-top: 40px;
+		text-align: center;
+	}
+	.footer .testimonial .text span{
+		margin: 0 auto;
+	}
+	.f_menu .navbar > li{
+		display: table;
+		text-align: center;
+		margin: 0 auto;
+	}
+	.f_menu .navbar li:after{
+		content: "";
+	}
+}
+/*iPad in landscape*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {}
