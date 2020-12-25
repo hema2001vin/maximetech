@@ -25,7 +25,7 @@ body{
 	padding-bottom: 15px;
 }
 .navbar-brand.logo {
-    font-size: 20px;
+    font-size: 30px;
     color: #fff;
     display: table;
 	font-family: "Patuaone";
@@ -74,11 +74,13 @@ body{
 }
 
 
+
+/*
 .top_content{
-	background: url(../img/banner.png) center top repeat-x;
+	background: url(../img/pcb-manufacture.jpg) center top repeat-x;
 	text-align: center;
 	padding-bottom: 225px;
-}
+}*/
 .top_content h2{
 	font-size: 48px;
 	color: #fff;
@@ -400,6 +402,11 @@ body{
 	width: 100%;
 }
 
+.btn-submit.disabled {
+  opacity: 0.65; 
+  cursor: not-allowed;
+}
+
 
 
 .footer{
@@ -531,4 +538,14 @@ body{
 .f_menu .copyright .copy a:hover{
 	text-decoration: none;
 	color: #ffc339;
+}
+
+.carauselCap {
+	font-weight: bold;
+	font-size: 55px; 
+	font-family: verna;
+}
+
+.fontsize30 {
+	font-size: 30px;
 }

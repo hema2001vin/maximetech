@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Maxime Techno</title>
+        <title>Maxime Technologies</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -21,98 +21,92 @@
         
         <link rel="stylesheet" href="css/style.css" />
         <link rel="stylesheet" href="css/responsive.css" />
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        
-        <div class="wrapper">
+		<script src="js/main.js"></script>   
 
-            <!-- header menu start -->
-            <div class="header">
-                <div class="container">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand logo" href="#">Maxime <span>Technologies</span></a>
-                    </div>
+
+<style>
+.carousel-inner > .item > a > img {
+	height: 450px;!important
+}
+</style>
+		
+		<script>
+
+</script>		
+    </head>
+	
+    <body>               
+        <div class="wrapper">
+            <div w3-include-html="header.html"></div>
+			
+			
+<!--<div class="container">  -->
+  <!-- <h2></h2>   -->
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+<!--      <li data-target="#myCarousel" data-slide-to="0" ></li> -->
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner " >
+      <!--<div class="item active">
+        <img src="img/banner.png" alt="" style="width:100%; height: 450px !important">
+		 <div class="carousel-caption">
+          <h3>Los Angeles</h3>
+          <p>LA is always so much fun!</p>
+        </div>
+      </div> -->
+
+      <div class="item active">
+        <img src="img/pcb-manufacture.jpg" alt="" style="width:100% ; height: 410px !important; color: blue" >
+		 <div class="carousel-caption">
+          <h1 class="carauselCap">High Speed PCB Design</h1>
+          <span class="fontsize30">Complete Solutions for your PCB Design</span>
+        </div>
+      </div>
     
-                    <div class="navbar-collapse collapse no-padding">
-                        <ul class="nav navbar-nav">
-                            <li class="active"><a href="#">Home</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Service</a></li>
-                            <li><a href="#">team</a></li>
-                            <li><a href="#">Works</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <!-- header menu over -->
-			
-            <!-- Top content Start -->
-            <div class="top_content">
-            	<div class="container">
-                	<h2>Super Beautiful, clean, simply and easy to use...</h2>
-                    <p>Lorem ipsum dolor sit amet, has persius detraxit ea. Eu duis complectitur mei, corpora interesset quaerendum no nec, ius vidit consul graeci in.
-</p>
-                </div>
-            </div>
-            <!-- Top content OVer -->
-			
-            <div class="background"></div>
-                        
-            <!-- About Start -->
-            <div class="container about">
-            	<div class="row">
-                	<div class="col-md-4 questions">
-                    	<div class="who">
-                        	<h3 class="title">Who we are<span class="fa fa-group"></span></h3>
-                        	<p class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam...</p>
-						</div>
-                    </div>
-                    <div class="col-md-4 top questions">
-                    	<div class="what">
-                        	<h3 class="title">what we do<span class="fa fa-desktop"></span></h3>
-                        	<p class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam......</p>
-						</div>
-                    </div>
-                    <div class="col-md-4 questions">
-	                    <div class="how">
-                        	<h3 class="title">how we do<span class="fa fa-paper-plane"></span></h3>
-                        	<p class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam...</p>
-						</div>
-                    </div>
-                </div>
-                
-                <div class="row">
-                	<div class="col-md-12 about_title">
-                    	<h2 class="title no-margin">Very short and brief about our company</h2>
-                        <span class="text">Lorem ipsum dolor sit amet, has persius detraxit ea. Eu duis complectitur mei, corpora interesset quaerendum no nec, ius vidit consul graeci in.
-</span>
-                    </div>
-                </div>
-                
+      <div class="item">
+        <img src="img/PCB_AI.jpg" alt="" style="width:100%; height: 410px !important; color: blue" >
+		 <div class="carousel-caption">
+          <h1 class="carauselCap">Product Design and Developement</h1>
+          <p class="fontsize30">Engineering solutions for Innovative, Next Gen Products and Time to Market</p>
+        </div>
+      </div>
+	</div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>	
+    </a>
+  </div>
+	
+  
+     
+  <!-- Top content OVer -->     
+             <div class="about" style="padding-top: 130px; padding-left: 25px; padding-right: 25px;">                
                 <div class="row">
                 	<div class="col-md-4 about_content">
-                    	<h4 class="title no-margin"><span class="web"><i class="fa fa-angle-right"></i></span>Web Designining</h4>
-                        <p class="text no-margin">Nunc purus orci, adipiscing non ipsum non, pellentesque fr ingilla sapien. Phasellus lacus tellus, facilisis.Nunc purus orci, adipiscing non ipsum non, pellentesque...</p>
+                    	<h4 class="title no-margin"><span class="web"><i class="fa fa-angle-right"></i></span>PCB Design and Engineering</h4>
+                        <p class="text no-margin">We provide High speed PCB design services for digital, analog and mixed signals, Ultra-high density boards, Package design and RF design. Our well defined procedure ensure high quality deliverable.</p>
                     </div>
-                    <div class="col-md-4 about_content">
-                    	<h4 class="title no-margin"><span class="video"><i class="fa fa-angle-right"></i></span>Video Editing</h4>
-                        <p class="text no-margin">Nunc purus orci, adipiscing non ipsum non, pellentesque fr ingilla sapien. Phasellus lacus tellus, facilisis.Nunc purus orci, adipiscing non ipsum non, pellentesque...</p>
+					<div class="col-md-4 about_content">
+                    	<h4 class="title no-margin"><span class="web-host"><i class="fa fa-angle-right"></i></span>Library Management</h4>
+                        <p class="text no-margin">The library management solution is tailored  to meet your requirements. We offer complete library  creation and maintaience soultions which matches with the IPC 7315 standards.</p>
                     </div>
-                    <div class="col-md-4 about_content">
-                    	<h4 class="title no-margin"><span class="web-host"><i class="fa fa-angle-right"></i></span>Web Host & Emailing</h4>
-                        <p class="text no-margin">Nunc purus orci, adipiscing non ipsum non, pellentesque fr ingilla sapien. Phasellus lacus tellus, facilisis.Nunc purus orci, adipiscing non ipsum non, pellentesque...</p>
-                    </div>
-                    <div class="col-md-4 about_content">
+                   
+					<div class="col-md-4 about_content">
+                    	<h4 class="title no-margin"><span class="video"><i class="fa fa-angle-right"></i></span>Product Design Engineering</h4>
+                        <p class="text no-margin">Our capabilities span the entire life-cycle of your board from design to full assembly.</p>
+                    </div>	
+                   <!-- <div class="col-md-4 about_content">
                     	<h4 class="title no-margin"><span class="email"><i class="fa fa-angle-right"></i></span>Email Marketing</h4>
                         <p class="text no-margin">Nunc purus orci, adipiscing non ipsum non, pellentesque fr ingilla sapien. Phasellus lacus tellus, facilisis.Nunc purus orci, adipiscing non ipsum non, pellentesque...</p>
                     </div>
@@ -123,255 +117,41 @@
                     <div class="col-md-4 about_content">
                     	<h4 class="title no-margin"><span class="seo"><i class="fa fa-angle-right"></i></span>SEO and SEM</h4>
                         <p class="text no-margin">Nunc purus orci, adipiscing non ipsum non, pellentesque fr ingilla sapien. Phasellus lacus tellus, facilisis.Nunc purus orci, adipiscing non ipsum non, pellentesque...</p>
-                    </div>
+                    </div> -->
                 </div>
+				<div class="row">				
+					<div class="col-md-4 about_content">
+						<h4 class="title no-margin"><span class="email"><i class="fa fa-angle-right"></i></span>Signal Integrity</h4>
+						<p class="text no-margin">Expertise in simulation tools to analyze various SI/PI issues like reflection due to impedance mismatch, crosstalk, signal attenuation and PDN noise which affects the interconnect performance. The analysis is carried out in two phase, the pre and post layout </p>
+					</div>	
+					<div class="col-md-4 about_content">
+                    	<h4 class="title no-margin"><span class="video"><i class="fa fa-angle-right"></i></span>PCB Fabrications</h4>
+                        <p class="text no-margin">Impedance Calculations, Stack-Up Reviews, Materials Selection for Flex, Rigid/Flex and Rigid Printed Circuit Boards.</p>
+                    </div>
+					<div class="col-md-4 about_content">
+                    	<h4 class="title no-margin"><span class="landing"><i class="fa fa-angle-right"></i></span>PCB Assembly</h4>
+                        <p class="text no-margin">Reliable, repeatable precision services maximizing quality and reducing cost.</p>
+					</div>
+                    <div class="col-md-4 about_content">
+                    	<h4 class="title no-margin"><span class="seo"><i class="fa fa-angle-right"></i></span>PCB Trainings and Consulting Service </h4>
+                        <p class="text no-margin">We provide PCB Training & We can help you with board design from simple to highly complex boards. We provide support with technology, PCB production, DFM, DFA and other PCB related issues..</p>
+                    </div>
+					<!--<div class="col-md-4 about_content">
+                    	<h4 class="title no-margin"><span class="web-host"><i class="fa fa-angle-right"></i></span>Accelerating Product Engineering for Enterprises</h4>
+                        <p class="text no-margin">Accelerate innovatoin, time to market and deliver best/improved customer experience</p>
+                    </div>	-->									
+				</div>
             </div>
-            <!-- About Over -->
-			
-            <div class="background"></div>
-                        
-            <!-- Portfolio Start -->
-            <div class="portfolio">
-            	<div class="container">
-                	<div class="row">
-                    	<div class="col-md-12">
-                        	<h2 class="title no-margin">yes, our portfolio really rocks!!!</h2>
-                            <span class="text">Lorem ipsum dolor sit amet, has persius detraxit ea. Eu duis complectitur mei, corpora interesset quaerendum no nec, ius vidit consul graeci in.
-</span>
-                        </div>
-                    </div>
-                    <div class="row port">
-                    	<div class="col-md-5">
-                        	<img src="img/white_block.png" class="img-responsive" />
-                        </div>
-                        <div class="col-md-7">
-                        	<h4 class="p_title no-margin">Project Title goes here</h4>
-                            <p class="p_text no-margin">Nunc purus orci, adipiscing non ipsum non, pellentesque fr ingilla sapien. Phasellus lacus tellus, facilisis.Nunc purus orci, adipiscing non orci, adipiscing non ipsum non, pellentesque fr ingilla sapien. Phasellus lacus tellus, non, pellenteNunc purus orci, adipiscing non ipsum non, pellentesque fr ingilla sapien. Phasellus lacus tellus, facilisis.Nunc purus orci, adipiscing non ipsum non, pellentesque...sque...</p>
-                        </div>
-                    </div>
-                    <div class="row port">
-                    	<div class="col-md-5">
-                        	<img src="img/white_block.png" class="img-responsive" />
-                        </div>
-                        <div class="col-md-7">
-                        	<h4 class="p_title no-margin">Project Title goes here</h4>
-                            <p class="p_text no-margin">Nunc purus orci, adipiscing non ipsum non, pellentesque fr ingilla sapien. Phasellus lacus tellus, facilisis.Nunc purus orci, adipiscing non orci, adipiscing non ipsum non, pellentesque fr ingilla sapien. Phasellus lacus tellus, non, pellenteNunc purus orci, adipiscing non ipsum non, pellentesque fr ingilla sapien. Phasellus lacus tellus, facilisis.Nunc purus orci, adipiscing non ipsum non, pellentesque...sque...</p>
-                        </div>
-                    </div>
-                    <div class="row port">
-                    	<div class="col-md-5">
-                        	<img src="img/white_block.png" class="img-responsive" />
-                        </div>
-                        <div class="col-md-7">
-                        	<h4 class="p_title no-margin">Project Title goes here</h4>
-                            <p class="p_text no-margin">Nunc purus orci, adipiscing non ipsum non, pellentesque fr ingilla sapien. Phasellus lacus tellus, facilisis.Nunc purus orci, adipiscing non orci, adipiscing non ipsum non, pellentesque fr ingilla sapien. Phasellus lacus tellus, non, pellenteNunc purus orci, adipiscing non ipsum non, pellentesque fr ingilla sapien. Phasellus lacus tellus, facilisis.Nunc purus orci, adipiscing non ipsum non, pellentesque...sque...</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Portfolio Over -->
-            
-            <!-- Blog Start -->
-            <div class="blog">
-            	<div class="container">
-                	<div class="row">
-                    	<div class="col-md-12">
-                        	<h2 class="title no-margin">our blog articles of the month</h2>
-                            <span class="text">Lorem ipsum dolor sit amet, has persius detraxit ea. Eu duis complectitur mei, corpora interesset quaerendum no nec, ius vidit consul graeci in.
-</span>
-                        </div>
-                    </div>
-                    <div class="row blogs">
-                    	<div class="col-md-6 one">
-                        	<div class="b_image">
-                            	<img src="img/gray_block.png" />
-                            </div>
-                            <div class="blog_text">
-                            	<h4 class="b_title no-margin">How To Communicate Effectively In IT Projects for</h4>
-                            <span class="b_author">24 June 2014 / (23) Comments</span>
-                            <p class="b_text no-margin">One of the most important factors in the success or failure of any IT project is communication. Communicating effectively can be quite difficult, especially when a</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6 two">
-                        	<div class="b_image">
-                            	<img src="img/gray_block.png" />
-                            </div>
-                            <div class="blog_text">
-                            	<h4 class="b_title no-margin">How To Communicate Effectively In IT Projects for</h4>
-                            <span class="b_author">24 June 2014 / (23) Comments</span>
-                            <p class="b_text no-margin">One of the most important factors in the success or failure of any IT project is communication. Communicating effectively can be quite difficult, especially when a</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row blogs">
-                    	<div class="col-md-6 one">
-                        	<div class="b_image">
-                            	<img src="img/gray_block.png" />
-                            </div>
-                            <div class="blog_text">
-                            	<h4 class="b_title no-margin">How To Communicate Effectively In IT Projects for</h4>
-                            <span class="b_author">24 June 2014 / (23) Comments</span>
-                            <p class="b_text no-margin">One of the most important factors in the success or failure of any IT project is communication. Communicating effectively can be quite difficult, especially when a</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6 two">
-                        	<div class="b_image">
-                            	<img src="img/gray_block.png" />
-                            </div>
-                            <div class="blog_text">
-                            	<h4 class="b_title no-margin">How To Communicate Effectively In IT Projects for</h4>
-                            <span class="b_author">24 June 2014 / (23) Comments</span>
-                            <p class="b_text no-margin">One of the most important factors in the success or failure of any IT project is communication. Communicating effectively can be quite difficult, especially when a</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row blogs">
-                    	<div class="col-md-6 one">
-                        	<div class="b_image">
-                            	<img src="img/gray_block.png" />
-                            </div>
-                            <div class="blog_text">
-                            	<h4 class="b_title no-margin">How To Communicate Effectively In IT Projects for</h4>
-                            <span class="b_author">24 June 2014 / (23) Comments</span>
-                            <p class="b_text no-margin">One of the most important factors in the success or failure of any IT project is communication. Communicating effectively can be quite difficult, especially when a</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6 two">
-                        	<div class="b_image">
-                            	<img src="img/gray_block.png" />
-                            </div>
-                            <div class="blog_text">
-                            	<h4 class="b_title no-margin">How To Communicate Effectively In IT Projects for</h4>
-                            <span class="b_author">24 June 2014 / (23) Comments</span>
-                            <p class="b_text no-margin">One of the most important factors in the success or failure of any IT project is communication. Communicating effectively can be quite difficult, especially when a</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Blog Over -->
-            
-            <div class="background"></div>
-            
-            <!-- Client Start -->
-            <div class="client">
-            	<div class="container">
-                	<div class="row">
-                    	<div class="col-md-12">
-                        	<h2 class="title no-margin">Our Esteemed Client List</h2>
-                            <span class="text no-margin">ersius detraxit ea. Eu duis complectitur mei, corpora interesset</span>
-                        </div>
-                    </div>
-                    <div class="row clients">
-                    	<div class="col-md-2"><img src="img/white_block_small.png" /></div>
-                        <div class="col-md-2"><img src="img/white_block_small.png" /></div>
-                        <div class="col-md-2"><img src="img/white_block_small.png" /></div>
-                        <div class="col-md-2"><img src="img/white_block_small.png" /></div>
-                        <div class="col-md-2"><img src="img/white_block_small.png" /></div>
-                        <div class="col-md-2"><img src="img/white_block_small.png" /></div>
-                    </div>
-                </div>
-            </div>
-            <!-- Client Over -->
-            
-            <!-- Contact Start -->
-            <div class="contact">
-            	<div class="container">
-                	<div class="row">
-                    	<div class="col-md-12">
-                        	<h2 class="title no-margin">Do you liked our works? and want to work with us Let's talk about your next project!</h2>
-                            <div class="get_in_touch">
-                            	<a href="#">Get in Touch</a>
-                            </div>
-                            <span class="c_arrow"><i class="fa fa-angle-down"></i></span>
-                            <span class="contact_form_title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</span>
-                            <div class="contact_form">
-                                <form action="#">
-                                    <div class="row">
-                                        <div class="col-md-6 text">
-                                            <input type="text" class="name" placeholder="Name" />
-                                        </div>
-                                        <div class="col-md-6 text">
-                                            <input type="text" class="email" placeholder="Email" />
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                    	<div class="col-md-6 text">
-                                            <input type="text" class="website" placeholder="Website" />
-                                        </div>
-                                        <div class="col-md-6 text">
-                                            <input type="text" class="phone" placeholder="Phone No." />
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                    	<div class="col-md-12 textarea">
-                                            <textarea class="message" placeholder="Message"></textarea>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                    	<div class="col-md-12 button">
-                                        	<input type="submit" value="Send" class="btn-submit" />
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Contact Over -->
-            
-            <!-- Footer Start -->
-            <div class="footer">
-            	<div class="container">
-                	<div class="row">
-                    	<div class="col-md-6 about">
-                        	<h1 class="title no-margin">Consultancy<span>Landing</span></h1>
-                            <p class="text no-margin">One of the most important factors in the success or failure of any IT project is communication. Communicating effectively can be quite One of the most important factors in the success or failure of any IT project is communication. Communicating effectively can be quite difficult, especially when a project involves many..., especially when a project involves many...</p>
-                        </div>
-                        <div class="col-md-6 testimonial">
-                        	<h2 class="title no-margin">Client Testimonials</h2>
-                            <p class="text no-margin">"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, ipsum dolor sit amet consectetuer adipiscing..<span>Aishwariya Rai</span></p>
-                            <div class="social1">
-                                <a href="#" class="fb"></a>
-                                <a href="#" class="twt"></a>
-                                <a href="#" class="linkedin"></a>
-                                <a href="#" class="yt"></a>
-                                <a href="#" class="gplus"></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="f_menu">
-            	<div class="container">
-                	<div class="row">
-                    	<div class="col-md-12">
-                            <ul class="navbar">
-                                <li class="active"><a href="#">Home</a></li>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Testimonials</a></li>
-                                <li><a href="#">Gallery</a></li>
-                                <li><a href="#">Blog</a></li>
-                                <li><a href="#">Contacts</a></li>
-                            </ul>
-                            <div class="copyright">
-                            	<p class="copy">(C) 2014. All Rights Reserved. <a href="#">ConsultancyLander </a>  / Template Designed by <a href="#">CompanyName.com</a></p>
-                          </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Footer Over -->
-        </div>
-        
-        
-        <script src="js/vendor/jquery-1.10.2.min.js"></script>
-        <script src="js/plugins.js"></script>
-        <script src="js/owl.carousel.js"></script>
-		<script src="js/main.js"></script>
-        
-        <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+            <div w3-include-html="footer.html"></div>           
+        </div>        
 
-    </body>
+  <script src="js/vendor/jquery-1.10.2.min.js"></script>
+   <!--     <script src="js/plugins.js"></script>
+        <script src="js/owl.carousel.js"></script> -->
+		     
+        <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>	
+   </body>
+   <script>
+		includeHTML();
+	</script>
 </html>
