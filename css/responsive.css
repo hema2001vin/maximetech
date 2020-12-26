@@ -6,6 +6,10 @@
 }
 /*iPhone 5 in portrait & landscape*/
 @media only screen and ( min-device-width : 320px) and ( max-device-width : 568px) {
+	
+	.contact_details li{ 		
+		width: 100%; 
+	}
 	.navbar-toggle{
 	  margin-bottom: 0;
 	  margin-top: 14px;
@@ -37,7 +41,7 @@
 		padding-top: 0;
 	}
 	.about{
-		margin-top: -200px;
+	//	margin-top: -200px;
 		padding-bottom: 40px;
 	}
 	.about .questions{
@@ -127,6 +131,11 @@
   }
 /*iPad in portrait*/
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+	
+	.contact_details li{ 		
+		width: 100%; 
+	}
+	
 	.top_content{
 		background: #212121;
 	}

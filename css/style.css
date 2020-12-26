@@ -549,3 +549,15 @@ body{
 .fontsize30 {
 	font-size: 30px;
 }
+
+.contact_details {
+	float:left; 
+	list-style: none; 	
+	padding-right: 25px;
+	display: block
+}
+
+.contact_details li{ 
+	display: inline-block;	
+	text-align: center;  	
+}
