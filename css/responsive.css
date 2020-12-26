@@ -42,7 +42,7 @@
 		padding-top: 0;
 	}
 	.about{
-	//	margin-top: -200px;
+		margin-top: 420px;
 		padding-bottom: 40px;
 	}
 	.about .questions{
@@ -127,6 +127,19 @@
 	}
 }
 
+
+@media only screen and (min-device-width : 1080px) and (max-device-width : 2160px) {
+	.contact_details li{ 		
+		width: 100%; 
+		list-style: none;
+	}
+	
+	.about {
+		margin-top: 420px;
+		padding-bottom: 40px;
+	}
+}
+
 /*iPad in portrait & landscape*/
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
   }
@@ -148,7 +161,7 @@
 		padding-top: 0;
 	}
 	.about{
-		//margin-top: -200px;
+		margin-top: 420px;
 		padding-bottom: 40px;
 	}
 	.about .questions{
