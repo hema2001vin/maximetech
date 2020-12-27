@@ -11,6 +11,9 @@
 		width: 100%; 
 		list-style: none;
 	}
+	.carauselCap {	
+		font-size: 52px; 	
+	}
 	.navbar-toggle{
 	  margin-bottom: 0;
 	  margin-top: 14px;
@@ -41,9 +44,8 @@
 	.top_content h2{
 		padding-top: 0;
 	}
-	.about{
-		margin-top: 420px;
-		padding-bottom: 40px;
+	.about{		
+		padding-bottom: 25px;			
 	}
 	.about .questions{
 		padding-right: 15px;
@@ -53,7 +55,7 @@
 	}
 	.about .about_content{
 		text-align: center;
-		padding: 15px 0;
+		padding: 15px 15px 0 15px;
 	}
 	.portfolio{
 		background: #303030;
@@ -126,7 +128,7 @@
 		margin: 0 auto;
 	}
 }
-
+/*
 
 @media only screen and (min-device-width : 1080px) and (max-device-width : 2160px) {
 	.contact_details li{ 		
@@ -138,17 +140,21 @@
 		margin-top: 420px;
 		padding-bottom: 40px;
 	}
-}
+}*/
 
 /*iPad in portrait & landscape*/
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
   }
 /*iPad in portrait*/
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+@media only screen and (min-device-width : 768px) and (max-device-width : 1088px) and (orientation : portrait) {
 	
 	.contact_details li{ 		
 		width: 100%; 
 		list-style: none;
+	}
+	
+	.carauselCap {	
+		font-size: 52px; 	
 	}
 	
 	.top_content{
@@ -160,9 +166,8 @@
 	.top_content h2{
 		padding-top: 0;
 	}
-	.about{
-		margin-top: 420px;
-		padding-bottom: 40px;
+	.about{		
+		padding-bottom: 25px;		
 	}
 	.about .questions{
 		padding-right: 15px;
@@ -172,7 +177,7 @@
 	}
 	.about .about_content{
 		text-align: center;
-		padding: 30px 0;
+		padding: 15px 15px 0 15px;
 	}
 	.portfolio{
 		background: #303030;

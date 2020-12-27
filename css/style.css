@@ -100,6 +100,8 @@ body{
 .about{
 	//margin-top: -125px;
 	padding-bottom: 106px;
+	padding-left: 15px;
+	padding-right: 10px;
 }
 .about .questions.top{
 	margin-top: -40px;
