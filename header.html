@@ -1,7 +1,7 @@
 			
 			
 		   <!-- header menu start -->
-            <div class="header">
+            <div class="header" id="myHeader">
 			
 				<div class="container-fluid" style="background-color: white;color: black; font-size: 20px; padding-top: 10px; ">						
 						<ul class="contact_details">
@@ -11,9 +11,10 @@
 						</ul>
 
 						<ul style="display: flex; float:right; list-style: none; flex-direction: row; padding-right: 25px;">
-							<li class="fa fa-facebook" style="padding-right: 15px;"><a title="Facebook" href="#" target="_blank"><i class="icon-facebook"></i></a></li>
-							<li class="fa fa-twitter" style="padding-right: 15px;"><a title="Twitter" href="#" target="_blank"><i class="icon-twitter"></i></a></li>
-							<li class="fa fa-linkedin"><a title="LinkedIn" href="#" target="_blank"><i class="icon-linkedin"></i></a></li>
+							<li  style="padding-right: 15px;"><a title="Facebook" class="fa fa-facebook" href="#" target="_blank" style="text-decoration: none"><i class="icon-facebook"></i></a></li>
+							<li style="padding-right: 15px;"><a title="Twitter" href="#" target="_blank" class="fa fa-twitter" style="text-decoration: none"><i class="icon-twitter"></i></a></li>
+							<li ><a class="fa fa-linkedin" title="LinkedIn" href="https://linkedin.com/in/maxime-technologies" target="_blank"style="text-decoration: none"><i class="icon-linkedin"></i></a></li>							
+							
 						</ul>
 											
 				</div>
@@ -33,13 +34,26 @@
                         <ul class="nav navbar-nav">
                             <li class="active"><a href="index.html">Home</a></li>
                             <li><a href="about.html">About</a></li>
-                            <li><a href="service.html">Service</a></li>
+                            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"> Services  <span class="caret"></span></a>
+									<ul class="dropdown-menu submenu" style="background-color: #000">
+									  <li><a href="PCBDesign.html">PCB Design and Engineering</a></li>
+									  <li><a href="librarymanage.html">Library Management</a></li>
+									  <li><a href="productdesign.html">Product Design Engineering</a></li>
+									  <li><a href="signalintegrity.html">Signal Integrity</a></li>
+									  <li><a href="pcbfab.html">PCB Fabrications</a></li>
+									  <li><a href="pcbassembly.html">PCB Assembly</a></li>
+									  <li><a href="pcbtraining.html">PCB Trainings and Consulting Service </a></li>
+									</ul>
+								</a>
+							</li>
+								
                           <!--  <li><a href="#">team</a></li>
                             <li><a href="#">Works</a></li> -->
                             <li><a href="contact.html">Contact</a></li>
                         </ul>
                     </div>
-                </div>
+				</div>
+			</div>
             
 			
  
